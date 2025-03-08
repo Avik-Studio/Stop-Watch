@@ -23,7 +23,7 @@ export default function App() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 to-black text-white p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 to-black text-white p-4">
       <div className="bg-zinc-300 bg-opacity-20 backdrop-blur-lg p-8 md:p-12 rounded-3xl shadow-2xl border border-gray-300/30 text-center w-full max-w-md md:max-w-lg lg:max-w-xl relative">
         <div className="absolute top-2 right-2 text-gray-400 text-sm">⏱️</div>
         <h1 className="text-2xl md:text-4xl font-bold mb-6 tracking-widest text-black">Stopwatch</h1>
@@ -52,6 +52,7 @@ export default function App() {
           </button>
         </div>
       </div>
+      <footer className="mt-6 text-gray-400 text-sm">Made by Avik Modak</footer>
     </div>
   );
 }
